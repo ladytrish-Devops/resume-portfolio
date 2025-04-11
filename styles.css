@@ -158,19 +158,18 @@ nav ul li a:hover {
 }
 
 .profile-image {
-    width: 100px;
-    height: 180px;
-    margin: 0 auto 20px;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 4px solid #0073e6;
-    animation: bounce 2s infinite;
+    width: 250px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .profile-image img {
     width: 100%;
     height: 180%;
     object-fit: cover;
+    animation: bounce 2s infinite;
 }
 
 .contact-links {
